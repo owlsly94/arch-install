@@ -36,6 +36,7 @@ intel-ucode
 kitty
 linux-firmware
 lsof
+less
 lxappearance
 lzop
 megatools
