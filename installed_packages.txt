@@ -31,8 +31,7 @@ gsfonts
 haveged
 htop
 hyprland
-hyprpaper
-intel-ucode
+amd-ucode
 kitty
 linux-firmware
 lsof
@@ -91,6 +90,7 @@ wget
 wofi
 xdg-user-dirs
 xf86-input-libinput
+xdg-desktop-portal-hyprland
 xorg-fonts-type1
 zip
 zsh
