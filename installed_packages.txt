@@ -46,6 +46,7 @@ neovim
 networkmanager
 npm
 ntfs-3g
+nwg-look
 openssh
 p7zip
 pacman-contrib
