@@ -38,6 +38,7 @@ lsof
 less
 lxappearance
 lzop
+imv
 megatools
 mkinitcpio-firmware
 mpv
