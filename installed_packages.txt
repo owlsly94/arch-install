@@ -28,6 +28,7 @@ git
 gptfdisk
 grub
 gsfonts
+gfeeds-git
 haveged
 htop
 hyprland
