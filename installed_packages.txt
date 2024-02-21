@@ -28,7 +28,6 @@ git
 gptfdisk
 grub
 gsfonts
-gfeeds-git
 haveged
 htop
 hyprland
@@ -49,6 +48,7 @@ networkmanager
 npm
 ntfs-3g
 nwg-look
+newsflash
 openssh
 p7zip
 pacman-contrib
