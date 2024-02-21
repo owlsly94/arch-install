@@ -94,6 +94,7 @@ wofi
 xdg-user-dirs
 xf86-input-libinput
 xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
 xorg-fonts-type1
 zip
 zsh
