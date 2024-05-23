@@ -839,8 +839,6 @@ sratom
 srt
 sshfs
 starship
-steam
-steam-native-runtime
 sudo
 svt-av1
 systemd
