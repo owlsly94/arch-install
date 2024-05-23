@@ -52,7 +52,10 @@ cantarell-fonts
 catppuccin-cursors-mocha
 catppuccin-gtk-theme-mocha
 cblas
+chafa
 cifs-utils
+clang
+compiler-rt
 confuse
 coreutils
 cronie
@@ -72,6 +75,7 @@ device-mapper
 dhcpcd
 dialog
 diffutils
+directx-headers
 dmidecode
 dnssec-anchors
 dosfstools
@@ -89,6 +93,9 @@ expat
 eza
 faac
 fakeroot
+fan-control
+fan-control-debug
+fastfetch
 fd
 ffcall
 ffmpeg
@@ -192,6 +199,7 @@ hyprpaper
 iana-etc
 icu
 ijs
+imagemagick
 imath
 imlib2
 imv
@@ -207,6 +215,7 @@ jemalloc
 json-c
 json-glib
 jsoncpp
+just
 jxrlib
 kbd
 keyutils
@@ -481,6 +490,7 @@ liblc3
 libldac
 libldap
 libliftoff
+liblqr
 libluv
 libmanette
 libmaxminddb
@@ -563,6 +573,7 @@ libudev0-shim
 libunibreak
 libunistring
 libunwind
+liburing
 libusb
 libusbmuxd
 libuv
@@ -648,6 +659,8 @@ m4
 mailcap
 make
 mangohud
+mariadb-libs
+mbedtls2
 md4c
 mdadm
 megatools
@@ -686,6 +699,7 @@ openal
 opencore-amr
 openexr
 openjpeg2
+openrgb
 openssh
 openssl
 openssl-1.1
@@ -735,6 +749,7 @@ polkit-gnome
 poppler-data
 popt
 portaudio
+postgresql-libs
 potrace
 powertop
 procps-ng
@@ -771,6 +786,11 @@ python-urllib3
 python-yaml
 qbittorrent
 qhull
+qt5-base
+qt5-declarative
+qt5-svg
+qt5-translations
+qt5-wayland
 qt6-base
 qt6-declarative
 qt6-svg
@@ -819,6 +839,8 @@ sratom
 srt
 sshfs
 starship
+steam
+steam-native-runtime
 sudo
 svt-av1
 systemd
@@ -944,6 +966,7 @@ xxhash
 xz
 yay
 yay-debug
+yyjson
 zenity
 zeromq
 zimg
