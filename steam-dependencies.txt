@@ -1,3 +1,5 @@
+steam
+steam-native-runtime
 lib32-vulkan-driver
 vulkan-mesa-layers
 lib32-vulkan-mesa-layers
