@@ -20,4 +20,8 @@ mangohud
 gamescope 
 texlive-fontsrecommended 
 texlive-latexrecommended
-
+fastfetch
+chafa 
+directx-headers 
+imagemagick 
+libdrm
