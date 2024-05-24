@@ -27,3 +27,5 @@ chafa
 directx-headers 
 imagemagick 
 libdrm
+btop
+rocm-smi-lib
