@@ -2,8 +2,6 @@ a52dec
 abseil-cpp
 acl
 adobe-source-code-pro-fonts
-adwaita-cursors
-adwaita-icon-theme
 aic94xx-firmware
 alacritty
 alsa-card-profiles
@@ -32,6 +30,7 @@ base-devel
 bash
 bash-completion
 bat
+bibata-cursor-theme
 bind
 binutils
 bison
@@ -82,6 +81,7 @@ dhcpcd
 dialog
 diffutils
 directx-headers
+discord
 dmidecode
 dnssec-anchors
 dosfstools
@@ -724,6 +724,7 @@ ntfs-3g
 numactl
 nwg-look
 ocl-icd
+oniguruma
 openal
 opencore-amr
 openexr
@@ -787,11 +788,14 @@ protobuf
 protobuf-c
 psmisc
 python
+python-attrs
 python-autocommand
 python-beautifulsoup4
+python-build
 python-cairo
 python-certifi
 python-charset-normalizer
+python-clickgen
 python-contourpy
 python-cycler
 python-dateutil
@@ -803,6 +807,7 @@ python-fonttools
 python-gobject
 python-idna
 python-inflect
+python-installer
 python-jaraco.context
 python-jaraco.functools
 python-jaraco.text
@@ -822,10 +827,12 @@ python-platformdirs
 python-protobuf
 python-psutil
 python-pyparsing
+python-pyproject-hooks
 python-requests
 python-setuptools
 python-six
 python-soupsieve
+python-toml
 python-tomli
 python-tqdm
 python-trove-classifiers
@@ -833,6 +840,7 @@ python-typeguard
 python-typing_extensions
 python-urllib3
 python-validate-pyproject
+python-wheel
 python-yaml
 qbittorrent
 qhull
