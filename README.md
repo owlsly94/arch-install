@@ -1,2 +1,2 @@
 # arch-hyprland
-Install Hyprland on Arch.
+Install Hyprland on Arch
