@@ -17,6 +17,7 @@ btop
 btrfs-progs
 catppuccin-cursors-mocha
 chafa
+chromium
 cifs-utils
 cronie
 dhcpcd
@@ -51,6 +52,7 @@ gsfonts
 gst-plugin-pipewire
 gvfs
 haveged
+hsetroot
 htop
 hyprland
 hyprpaper
@@ -90,7 +92,7 @@ openssh
 p7zip
 pacman-contrib
 pamixer
-papirus-folders-catppuccin-git
+papirus-icon-theme
 pavucontrol
 pcmanfm
 picom
@@ -102,7 +104,9 @@ pipewire-zeroconf
 polkit-gnome
 postgresql-libs
 powertop
+python-pip
 python-protobuf
+python-selenium
 qbittorrent
 qemu-desktop
 qt5-svg
@@ -123,12 +127,15 @@ sdl_ttf
 smbclient
 sshfs
 starship
+steam
+steam-native-runtime
 texlive-fontsrecommended
 texlive-latexrecommended
 tokyonight-gtk-theme-git
 traceroute
 ttf-bitstream-vera
 ttf-dejavu
+ttf-font-awesome
 ttf-iosevka-nerd
 ttf-iosevkaterm-nerd
 ttf-jetbrains-mono
@@ -160,6 +167,7 @@ wireplumber
 wl-clipboard
 wlogout
 wofi
+xclip
 xdg-desktop-portal-gtk
 xdg-user-dirs
 xdotool
