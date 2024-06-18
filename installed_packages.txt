@@ -50,6 +50,7 @@ gptfdisk
 grub
 gsfonts
 gst-plugin-pipewire
+gtk-engine-murrine
 gvfs
 haveged
 hsetroot
@@ -76,7 +77,9 @@ lzop
 man-db
 mangohud
 mariadb-libs
+material-gtk-theme-palenight-git
 megatools
+mesa-demos
 mkinitcpio-firmware
 mpv
 neovim
@@ -106,11 +109,13 @@ postgresql-libs
 powertop
 python-pip
 python-protobuf
+python-pywal
 python-selenium
 qbittorrent
 qemu-desktop
 qt5-svg
 qt5-wayland
+qt5ct
 qt6-wayland
 ranger
 rate-mirrors-bin
@@ -127,8 +132,6 @@ sdl_ttf
 smbclient
 sshfs
 starship
-steam
-steam-native-runtime
 texlive-fontsrecommended
 texlive-latexrecommended
 tokyonight-gtk-theme-git
