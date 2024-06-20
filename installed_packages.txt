@@ -89,6 +89,7 @@ nordic-theme
 npm
 ntfs-3g
 nwg-look
+obs-studio
 openbsd-netcat
 openrgb
 openssh
@@ -154,6 +155,7 @@ typescript-language-server
 unrar
 unzip
 usbutils
+v4l2loopback-dkms
 vde2
 vim
 virt-manager
