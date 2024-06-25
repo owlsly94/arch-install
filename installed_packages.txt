@@ -65,8 +65,10 @@ less
 lib32-fluidsynth
 lib32-gamemode
 lib32-libva-mesa-driver
+lib32-pipewire-jack
 lib32-vkd3d
 lib32-vulkan-mesa-layers
+lib32-vulkan-radeon
 linux-firmware
 linux-zen
 linux-zen-headers
@@ -105,7 +107,6 @@ pipewire-jack
 pipewire-pulse
 pipewire-v4l2
 pipewire-zeroconf
-polkit-gnome
 postgresql-libs
 powertop
 python-pip
@@ -115,7 +116,6 @@ python-selenium
 qbittorrent
 qemu-desktop
 qt5-svg
-qt5-wayland
 qt5ct
 qt6-wayland
 ranger
@@ -125,7 +125,6 @@ ripgrep
 rocm-smi-lib
 rofi
 rsync
-rust
 s3fs-fuse
 sddm
 sddm-theme-catppuccin
@@ -156,7 +155,6 @@ unrar
 unzip
 usbutils
 v4l2loopback-dkms
-vde2
 vim
 virt-manager
 virt-viewer
@@ -186,8 +184,8 @@ xorg-fonts-type1
 xorg-server
 xorg-xinit
 yay
-yay-debug
 zip
+zoxide
 zsh
 zsh-autosuggestions
 zsh-syntax-highlighting
