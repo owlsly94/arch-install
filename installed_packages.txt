@@ -73,6 +73,7 @@ linux-firmware
 linux-zen
 linux-zen-headers
 lsof
+luarocks
 lutris
 lxappearance
 lzop
