@@ -60,6 +60,7 @@ hyprland
 hyprpaper
 imagemagick
 imv
+jammer-appimage
 jdownloader2
 kitty
 less
