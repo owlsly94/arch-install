@@ -1,4 +1,4 @@
-yay -S qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat
+paru -S qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat
 
 sudo systemctl enable libvirtd.service
 
