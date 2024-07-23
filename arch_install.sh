@@ -265,10 +265,8 @@ setup_dotfiles() {
     local dotfiles_repo="https://github.com/owlsly94/dotfiles.git"
     local target_dir="$HOME/Downloads/dotfiles"
 
-    # Clone the dotfiles repository
     git clone "$dotfiles_repo" "$target_dir"
 
-    # Copy .config folder and .zshrc to the home directory
     cp -r "$target_dir/.config" "$HOME/"
     cp "$target_dir/.zshrc" "$HOME/"
     echo -e "\033[1;32mDotfiles set up successfully.\033[0m"
@@ -304,21 +302,19 @@ copy_sddm_conf() {
 }
 
 install_emacs_and_doom() {
-  # Install Emacs with paru
+
   echo -e "\033[1;32mInstalling Emacs...\033[0m"
   sleep 5
   paru -S --noconfirm emacs
   echo -e "\033[1;32mEmacs installed!\033[0m"
   sleep 5
 
-  # Clone Doom Emacs repository
   echo -e "\033[1;32mCloning Doom Emacs repo...\033[0m"
   sleep 5
   git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
   echo -e "\033[1;32mDoom Emacs repo cloned!\033[0m"
   sleep 5
 
-  # Install Doom Emacs
   echo -e "\033[1;32mInstalling Doom Emacs...\033[0m"
   sleep 5
   ~/.emacs.d/bin/doom install
@@ -327,18 +323,16 @@ install_emacs_and_doom() {
 }
 
 change_shell() {
-    # Check if zsh is installed
+
     if ! command -v zsh &> /dev/null; then
         echo -e "\033[1;31mZsh is not installed...\033[0m"
         sleep 5
         return 1
     fi
 
-    # Change the shell to zsh
     SHELL=$(which zsh)
     export SHELL
 
-    # Check if .zshrc exsist
     if [ ! -f ~/.zshrc ]; then
         echo -e "\033[1;31m.zshrc not found...\033[0m"
         sleep 5
@@ -389,5 +383,4 @@ main() {
     sleep 10
 }
 
-# Run the main function
 main
