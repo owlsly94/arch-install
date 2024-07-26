@@ -133,6 +133,7 @@ install_programs() {
         "pavucontrol"
         "pcmanfm"
         "picom"
+        "pyprland"
         "pipewire-alsa"
         "pipewire-jack"
         "pipewire-pulse"
