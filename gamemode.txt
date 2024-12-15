@@ -1,0 +1,37 @@
+Check if gamemode is active and running:
+gamemoded -t
+
+Check your current CPU governor:
+cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+
+Grant permissions by adding the following rule:
+sudo nano /etc/udev/rules.d/99-cpu-governor.rules
+
+Add this content:
+ACTION=="add", SUBSYSTEM=="cpu", KERNEL=="cpu[0-9]*", ATTR{cpufreq/scaling_governor}="performance"
+
+Then reload the rules:
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+
+Set the CPU Governor If GameMode cannot override the CPU governor, manually:
+echo "performance" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+
+To make it persistent, create a systemd service:
+sudo nano /etc/systemd/system/cpu-governor.service
+
+Add:
+[Unit]
+Description=Set CPU Governor to Performance
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c "echo performance | tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor"
+
+[Install]
+WantedBy=multi-user.target
+
+Enable and start the service:
+sudo systemctl enable --now cpu-governor.service
+
