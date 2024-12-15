@@ -83,6 +83,7 @@ install_programs() {
         "htop"
         "hyprland"
         "hyprpaper"
+        "hyprlock"
         "imagemagick"
         "imv"
         "jammer-appimage"
