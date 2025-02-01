@@ -48,6 +48,7 @@ install_programs() {
         "bitwarden"
         "discord"
         "grim"
+        "swww"
         "hyprpaper"
         "hyprlock"
         "imv"
