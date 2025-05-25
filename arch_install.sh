@@ -307,21 +307,20 @@ install_emacs_and_doom() {
 }
 
 change_shell() {
-
     if ! command -v zsh &> /dev/null; then
         echo -e "\033[1;31mZsh is not installed...\033[0m"
-        sleep 5
+        sleep 2
         return 1
     fi
-
-    SHELL=$(which zsh)
-    export SHELL
 
     if [ ! -f ~/.zshrc ]; then
         echo -e "\033[1;31m.zshrc not found...\033[0m"
-        sleep 5
+        sleep 2
         return 1
     fi
+
+    echo -e "\033[1;32mChanging default shell to Zsh...\033[0m"
+    chsh -s "$(which zsh)"
 }
 
 run_doom_sync() {
