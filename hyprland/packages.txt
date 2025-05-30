@@ -71,6 +71,7 @@ pipewire-jack
 pipewire-pulse
 polkit-kde-agent
 protonup-qt-bin
+pyprland
 python-mutagen
 python-protobuf
 python-pynvim
