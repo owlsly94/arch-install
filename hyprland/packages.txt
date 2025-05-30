@@ -20,6 +20,7 @@ gamemode
 gamescope
 git
 github-desktop-bin
+polkit-gnome
 goverlay
 grim
 gst-plugin-pipewire
